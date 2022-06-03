@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&family=Pathway+Gothic+One&display=swap');
+
+/* font-family: 'Alfa Slab One', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+:root{
+    --defaultfont :'Montserrat', sans-serif;
+    --titlefont:'Alfa Slab One', cursive;
+    --secoundaryfont:'Bebas Neue', cursive;
+    --themecolor:#3d2514;
+    --secoundarycolor:#bf2222;
+}
+
+body{
+    color:var(--themecolor);
+}
+header{
+    background-image: url(../img/backgroundimg.png);
+    position: relative;
+    min-height:80vh;
+}
+
+.navbar-nav .nav-link {
+
+font-family:var(--secoundaryfont);
+font-size:20px;
+color: var(--themecolor);
+padding-left:55px;
+padding-right: 0px;
+}
+.banner-section{
+    color: var(--themecolor);
+
+}
+.banner-section h5 {
+    font-family: var(--secoundaryfont);
+    font-size: 23px;
+    border: 2px dashed;
+    padding: 8px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.banner-section h1 {
+    font-family: var(--titlefont);
+    font-size: 114px;
+text-transform:uppercase;
+text-shadow: 3px 5px #fff;
+
+}
+.banner-section h2{
+    font-family:var(--titlefont) ;
+    font-size: ;
+    text-transform:uppercase;
+    text-shadow: 3px 3px #fff;
+
+
+}
+.banner-img{
+
+}
+.banner-img img{
+}
+.offer {
+    background-color: var(--secoundarycolor);
+    position: relative;
+    height: 174px;
+    width: 174px;
+    bottom: 194px;
+    left: 49px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.offer div{
+    border: 2px dashed;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.offer h3{
+    text-transform: uppercase;
+    display: block;
+    color:#fff;
+    font-size: 70px;
+    font-family: var(--secoundaryfont);
+    line-height: .5;
+   
+
+}
+.offer h3 strong{
+    font-size: 30px;
+
+}
+.offer h3 span{
+    font-size: 33px;
+
+}
+.menu-section{
+    padding: 80px 0px;
+}
+.menu{
+    position: relative;
+    margin-bottom: 28px;
+}
+.menu img{}
+.menu-tittle{
+    font-family: var(--secoundaryfont);
+    position: absolute;
+    left:20px;
+    top: 30px;
+    color: #fff;
+}
+.menu-tittle h3{}
+.menu-tittle h2{}
+
+.text-section{
+color: #3d2514;
+align-items: center;
+text-align: center;
+margin-top: -31px;
+}
+.text-section h6{
+    font-family: var(--secoundaryfont);
+    background-color: #ffc043;
+    display: inline-block;
+}
+.text-section h1{
+    font-family: var(--titlefont);
+    font-weight: 900;
+    font-size: 50px;
+}
+.text-section p{
+    padding: 0px 90px;
+}
+
+
+.btn-color{
+ background-color: #bf2222;
+ border-radius: 0;
+ padding: 5px 20px;
+
+}
+.btn-color:hover{
+    background-color: #bf2222;
+
+}
+.images-section{
+    text-align: center;
+    
+}
+.images-section img{
+    min-height: 285px;
+    object-fit: contain;
+}
+.images-section h1{
+    font-size: 37px;
+    font-family: var(--secoundaryfont);
+}
+.images-section p{}
